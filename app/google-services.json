@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "83098029573",
+    "firebase_url": "https://imhereproject-d421c.firebaseio.com",
+    "project_id": "imhereproject-d421c",
+    "storage_bucket": "imhereproject-d421c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83098029573:android:5d85883a014c14cf19d66c",
+        "android_client_info": {
+          "package_name": "com.example.imhere_project_y4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83098029573-9s22jk1q7pe5fahvgrij1j67eklsjmbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpip5j-K1HqqQue_F7CBhCEf8za8uUjjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83098029573-9s22jk1q7pe5fahvgrij1j67eklsjmbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83098029573:android:f36b2d5a945797ff19d66c",
+        "android_client_info": {
+          "package_name": "com.example.nuyooni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83098029573-9s22jk1q7pe5fahvgrij1j67eklsjmbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpip5j-K1HqqQue_F7CBhCEf8za8uUjjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83098029573-9s22jk1q7pe5fahvgrij1j67eklsjmbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

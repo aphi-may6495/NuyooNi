@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nuyooni">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".Service.AlarmService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".Service.BluetoothService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Service.BluetoothBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".FirstPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".successsentnoti" />
+        <activity android:name=".confirmsentnoti" />
+        <activity android:name=".addprofile2" />
+        <activity android:name=".addprofile" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterSuccess" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Profile"/>
+        <activity android:name=".AlarmActivity" />
+    </application>
+
+</manifest>
